@@ -35,6 +35,16 @@
 
 # 坑
 
+## Git 相关
+
+-   提交 pr 后 github 提示部分文件有 conflicts [>>详情](./holes/gitRelated.md)
+
+## 前端相关
+
+-   arraw function 里的 setState 不能更新 state 或者更新有问题 [>>详情](./holes/frontend.md)
+
+## DevOps 相关
+
 <br/>
 
 # 后言
