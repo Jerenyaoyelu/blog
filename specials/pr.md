@@ -10,3 +10,11 @@
 -   如果没有设置过`upstream`, 这需要跑`git push -u origin master`.
 -   也可以设置一下`upstream`，命令如下：
     > `git push -u <remote> <branch>`
+
+<br/>
+
+# 后言
+
+以上皆为自己实操经验，如有不喜，勿喷！欢迎指正。若博君欢心，欢迎`star`一下。
+
+[>>Back to Home](../README.md)
