@@ -41,7 +41,9 @@
 
 ## 前端相关
 
--   arraw function 里的 setState 不能更新 state 或者更新有问题 [>>详情](./holes/frontend.md)
+-   arraw function 里的 setState 不能更新 state 或者更新有问题 [>>详情](./holes/frontend.md# 'setState 相关')
+
+-   在 onClick 中传入一个函数，此函数内有 setState，并且需要给这个函数传入一个参数[>>详情](./holes/frontend.md# 'onClick 相关')
 
 ## DevOps 相关
 

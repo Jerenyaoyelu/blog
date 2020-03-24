@@ -24,6 +24,32 @@ arraw function 里的 setState 不能更新 state 或者更新有问题
 
 <br/>
 
+# onClick 相关
+
+## Description
+
+在 onClick 中传入一个函数，此函数内有 setState，并且需要给这个函数传入一个参数。
+
+-   如下图写法:
+    ![](./statics/onClick1.png)
+-   报错如下：
+    ![](./statics/onClick-error1.png)
+
+## 原因
+
+onClick 内传如函数错误，当没有括号时传入的是 function 对象，点击之后会调用该函数，但是当需要给入参数时必须加括号，这是传入的不再是个对象，变成了函数调用，所以会出现无限次 setState 最后达到最大刷新深度。
+
+## 解决方案
+
+-   若不需要给函数传入参数时，这么写没有问题
+-   若需要给函数传入参数时，这应该在 onClick 中传入一个回调函数，在回调函数中调用这个函数。写法如下:
+
+```javascript
+<span onClick={() => this.onMouseEnter('home')}></span>
+```
+
+<br/>
+
 # Ajax 请求相关
 
 ## Description
