@@ -31,9 +31,12 @@ arraw function 里的 setState 不能更新 state 或者更新有问题
 在 onClick 中传入一个函数，此函数内有 setState，并且需要给这个函数传入一个参数。
 
 -   如下图写法:
-    ![](./statics/onClick1.png)
+
+![](./statics/onClick1.png)
+
 -   报错如下：
-    ![](./statics/onClick-error1.png)
+
+![](./statics/onClick-error1.png)
 
 ## 原因
 
