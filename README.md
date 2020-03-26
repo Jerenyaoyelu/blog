@@ -33,6 +33,14 @@
 
 <br/>
 
+# 前端进阶
+
+## 缓存相关
+
+-   如何实现保持登录状态？[>>详情](./knowledge/advanceFrontend.md)
+
+<br/>
+
 # 坑
 
 ## Git 相关
@@ -48,14 +56,6 @@
 -   在实现保持登录状态时出现手动登录后点击 Myprofile 报错`_id of null`以及之后一系列报错 [>>详情](./holes/frontend.md# 'Persistent Login 相关')
 
 ## DevOps 相关
-
-<br/>
-
-# 前端进阶
-
-## 缓存相关
-
--   如何实现保持登录状态？[>>详情](./knowledge/advanceFrontend.md)
 
 <br/>
 
