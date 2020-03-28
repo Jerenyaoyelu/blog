@@ -55,6 +55,8 @@
 
 -   在实现保持登录状态时出现手动登录后点击 Myprofile 报错`_id of null`以及之后一系列报错 [>>详情](./holes/frontend.md# 'Persistent Login 相关')
 
+-   在子组件点击链接后，会新开一个页面，但是就是会 redirect 到 not-found，App.js 的数据也明明都有请求过来。（说明 routes 还是有问题）[>>详情](./holes/frontend.md## 'Description 3')
+
 ## DevOps 相关
 
 <br/>
