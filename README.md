@@ -57,6 +57,8 @@
 
 -   在子组件点击链接后，会新开一个页面，但是就是会 redirect 到 not-found，App.js 的数据也明明都有请求过来。（说明 routes 还是有问题）[>>详情](./holes/frontend.md## 'Description 3')
 
+-   modal 渲染的内容需要根据 props 的数据的不同而变化，但无论是在 render（）方法里用 setState 还是单独写一个函数都会报错`Maximum update` [>>详情](./holes/frontend.md# 'lifeCycle Method 相关')
+
 ## DevOps 相关
 
 <br/>
