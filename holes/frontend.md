@@ -161,6 +161,56 @@ if (restaurants && restaurants.length > 0) {
 
 <br/>
 
+# lifeCycle Method 相关
+
+## Description 1
+
+modal 渲染的内容需要根据 props 的数据的不同而变化，但无论是在 render（）方法里用 setState 还是单独写一个函数都会报错`Maximum update`
+
+![](./statics/lifeCycle.png)
+
+错误代码
+
+```javascript
+class RestaurantModal extends React.Component {
+	...
+	render(){
+		const { editingRestaurant } = nextProps
+		if (editingRestaurant !== null) {
+			this.setState({
+				name: editingRestaurant.name,
+				description: editingRestaurant.description,
+			})
+		}
+		return(...)
+	}
+}
+```
+
+正确代码
+
+```javascript
+UNSAFE_componentWillReceiveProps = (nextProps) => {
+	const { editingRestaurant } = nextProps;
+	if (editingRestaurant !== null) {
+		this.setState({
+			name: editingRestaurant.name,
+			description: editingRestaurant.description,
+		});
+	}
+};
+```
+
+## 原因
+
+这种情况下 setState 的方法不对
+
+## 解决方案
+
+应该用`UNSAFE_componentWillReceiveProps`并且配合参数`nextProps`
+
+<br/>
+
 # onClick 相关
 
 ## Description
