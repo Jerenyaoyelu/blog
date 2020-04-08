@@ -6,19 +6,17 @@
 
 # 不错的开源学习社区推荐
 
-- [极客学院](https://wiki.jikexueyuan.com/)
+-   [极客学院](https://wiki.jikexueyuan.com/)
 
-	- 提供非常全面的学习资源，不仅仅限于前端
+        	- 提供非常全面的学习资源，不仅仅限于前端
 
+*   [freeCodeCamp](https://www.freecodecamp.org/learn/)
 
-- [freeCodeCamp](https://www.freecodecamp.org/learn/)
+        	- 提供非常全面的前端学习资源，一步一步带教
 
-	- 提供非常全面的前端学习资源，一步一步带教
+-   [前端面试查漏补缺](https://juejin.im/post/5c6bab91f265da2dd94c9f9e)
 
-
-- [前端面试查漏补缺](https://juejin.im/post/5c6bab91f265da2dd94c9f9e)
-
-	- 掘金上的大佬整理的挺详细的关于面试的前端知识点，查漏补缺
+        	- 掘金上的大佬整理的挺详细的关于面试的前端知识点，查漏补缺
 
 <br/>
 
@@ -67,17 +65,25 @@
 
 ## 前端相关
 
--   arraw function 里的 setState 不能更新 state 或者更新有问题 [>>详情](./holes/frontend.md# 'setState 相关')
+-   arraw function 里的 setState 不能更新 state 或者更新有问题 [>>详情](./holes/setState.md)
 
--   在 onClick 中传入一个函数，此函数内有 setState，并且需要给这个函数传入一个参数[>>详情](./holes/frontend.md# 'onClick 相关')
+-   setState 更新 state 中的 object 类型变量，部分已经 state 中声明的 object 里面的 key 在之后的调用中变成 undefined [>>详情](./holes/setState.md)
+
+-   在 onClick 中传入一个函数，此函数内有 setState，并且需要给这个函数传入一个参数[>>详情](./holes/frontend.md)
 
 -   在实现保持登录状态时出现手动登录后点击 Myprofile 报错`_id of null`以及之后一系列报错 [>>详情](./holes/frontend.md# 'Persistent Login 相关')
 
--   在子组件点击链接后，会新开一个页面，但是就是会 redirect 到 not-found，App.js 的数据也明明都有请求过来。（说明 routes 还是有问题）[>>详情](./holes/frontend.md## 'Description 3')
+-   在子组件点击链接后，会新开一个页面，但是就是会 redirect 到 not-found，App.js 的数据也明明都有请求过来。（说明 routes 还是有问题）[>>详情](./holes/react-router.md)
 
--   modal 渲染的内容需要根据 props 的数据的不同而变化，但无论是在 render（）方法里用 setState 还是单独写一个函数都会报错`Maximum update` [>>详情](./holes/frontend.md# 'lifeCycle Method 相关')
+-   modal 渲染的内容需要根据 props 的数据的不同而变化，但无论是在 render（）方法里用 setState 还是单独写一个函数都会报错`Maximum update` [>>详情](./holes/lifecycleMethod.md)
 
-- 任何深层级的页面只要一刷新就会导致当前页面Not Found [>>详情](./holes/react-router.md)
+-   任何深层级的页面只要一刷新就会导致当前页面 Not Found [>>详情](./holes/react-router.md)
+
+-   明明按照 controlled input 的写法，但是跑了之后还是报错 uncontrolled input error [>>详情](./holes/controlledInput.md)
+
+## Ajax 请求相关
+
+-   axios 发送请求时，报错 cors preflight/一直显示 400 Bad request/catch log 出来的 error 不是 object 形式显示 [>>详情](./holes/ajax.md)
 
 ## DevOps 相关
 
