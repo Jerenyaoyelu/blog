@@ -198,6 +198,80 @@ export default Homepage;
 
 <br/>
 
+# Logic bugs 相关
+
+## Description
+
+背景：
+
+要重复利用创建操作时用的 modal
+
+问题：
+
+点击编辑然后关闭 modal 后，再点击创建时，上次点击编辑传入的数据还保留在 modal 上
+
+## 原因
+
+在点击创建打开 modal 没有重置传入 modal 的数据
+
+### 错误代码
+
+```javascript
+UNSAFE_componentWillReceiveProps = (nextProps) => {
+	const { currentParam } = nextProps;
+
+	if (currentParam !== null) {
+		this._id = currentParam._id;
+		this.setState({
+			name: currentParam.name,
+			description: currentParam.description,
+		});
+	}
+};
+```
+
+### 正确代码
+
+```javascript
+<Button
+	type="primary"
+	shape="round"
+	className="button"
+	onClick={() => {
+		this.setState({
+			currentParam: null,
+		});
+		this.handleCategoryEdit();
+	}}
+>
+	New Category
+</Button>
+```
+
+```javascript
+UNSAFE_componentWillReceiveProps = (nextProps) => {
+	const { currentParam } = nextProps;
+
+	if (currentParam !== null) {
+		this._id = currentParam._id;
+		this.setState({
+			name: currentParam.name,
+			description: currentParam.description,
+		});
+	} else {
+		this._id = '';
+		this.setState({
+			name: '',
+			description: '',
+		});
+	}
+};
+```
+
+## 解决方法
+
+如上正确代码展示
+
 # 后言
 
 以上皆为自己实操经验，如有不喜，勿喷！欢迎指正。若博君欢心，欢迎`star`一下。

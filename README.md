@@ -81,6 +81,8 @@
 
 -   明明按照 controlled input 的写法，但是跑了之后还是报错 uncontrolled input error [>>详情](./holes/controlledInput.md)
 
+-   点击编辑然后关闭 modal 后，再点击创建时，上次点击编辑传入的数据还保留在 modal 上 [>>详情](./holes/setState.md)
+
 ## Ajax 请求相关
 
 -   axios 发送请求时，报错 cors preflight/一直显示 400 Bad request/catch log 出来的 error 不是 object 形式显示 [>>详情](./holes/ajax.md)
