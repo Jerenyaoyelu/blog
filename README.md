@@ -77,6 +77,8 @@
 
 -   modal 渲染的内容需要根据 props 的数据的不同而变化，但无论是在 render（）方法里用 setState 还是单独写一个函数都会报错`Maximum update` [>>详情](./holes/frontend.md# 'lifeCycle Method 相关')
 
+- 任何深层级的页面只要一刷新就会导致当前页面Not Found [>>详情](./holes/react-router.md)
+
 ## DevOps 相关
 
 <br/>
