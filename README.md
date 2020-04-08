@@ -8,15 +8,14 @@
 
 -   [极客学院](https://wiki.jikexueyuan.com/)
 
-        	- 提供非常全面的学习资源，不仅仅限于前端
+    -   提供非常全面的学习资源，不仅仅限于前端
 
-*   [freeCodeCamp](https://www.freecodecamp.org/learn/)
+-   [freeCodeCamp](https://www.freecodecamp.org/learn/)
 
-        	- 提供非常全面的前端学习资源，一步一步带教
+    -   提供非常全面的前端学习资源，一步一步带教
 
 -   [前端面试查漏补缺](https://juejin.im/post/5c6bab91f265da2dd94c9f9e)
-
-        	- 掘金上的大佬整理的挺详细的关于面试的前端知识点，查漏补缺
+    -   掘金上的大佬整理的挺详细的关于面试的前端知识点，查漏补缺
 
 <br/>
 
