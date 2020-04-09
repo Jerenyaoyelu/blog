@@ -20,6 +20,20 @@
 
 <br/>
 
+## Description
+
+git pull 远端的 master 之后，一直显示有一个 local 文件被改动，但是不管怎样 discard 又会有另外一个极为相近的文件显示刚刚 discard 掉的内容为新的改动，git pull 就说要先 stash local changes，但是 git stash 之后还是有这些 changes
+
+## 原因
+
+有人直接在远端添加了其中一个文件，然后又之后在本地推了一个名称差不多的文件，所以导致前面两个文件 discard 其中一个，另外一个就显示之前 discard 的改动为新的改动
+
+## 解决方案
+
+（确保自己本地所做的开发都已经推上去），强制更新本地的 master，方法如[帖子](https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files)
+
+<br/>
+
 # 后言
 
 以上皆为自己实操经验，如有不喜，勿喷！欢迎指正。若博君欢心，欢迎`star`一下。

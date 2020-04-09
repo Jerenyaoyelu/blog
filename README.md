@@ -54,6 +54,8 @@
 
 -   如何实现保持登录状态？[>>详情](./knowledge/advanceFrontend.md)
 
+-   git pull 远端的 master 之后，一直显示有一个 local 文件被改动，但是不管怎样 discard 又会有另外一个极为相近的文件显示刚刚 discard 掉的内容为新的改动，git pull 就说要先 stash local changes，但是 git stash 之后还是有这些 changes [>>详情](./knowledge/advanceFrontend.md)
+
 <br/>
 
 # 坑
