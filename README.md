@@ -66,6 +66,8 @@
 
 -   [语言特性 1：变量、Mixins 详解](./浅谈less笔记/语言特性1.md)
 
+-   [语言特性 2：嵌套规则、Operations、Function、Namespaces and Accessors、作用域、Comments、Importing](./浅谈less笔记/语言特性2.md)
+
 # 坑
 
 ## Git 相关
