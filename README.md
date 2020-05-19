@@ -69,6 +69,12 @@
 
 -   [语言特性 2：嵌套规则、Operations、Function、Namespaces and Accessors、作用域、Comments、Importing](./浅谈less笔记/语言特性2.md)
 
+## 浅谈 TS 学习笔记
+
+-   [开篇:简介](./浅谈TS笔记/开篇.md)
+
+-   [基础 1:原始数据类型、任意值、类型推论](./浅谈TS笔记/基础1.md)
+
 # 坑
 
 ## Git 相关
