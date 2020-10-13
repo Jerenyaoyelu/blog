@@ -1,4 +1,4 @@
-# 坑复现
+# 提交PR有冲突
 
 ## Description
 
@@ -20,6 +20,8 @@
 
 <br/>
 
+# 远端仓库手添文件造bug
+
 ## Description
 
 git pull 远端的 master 之后，一直显示有一个 local 文件被改动，但是不管怎样 discard 又会有另外一个极为相近的文件显示刚刚 discard 掉的内容为新的改动，git pull 就说要先 stash local changes，但是 git stash 之后还是有这些 changes
@@ -31,6 +33,26 @@ git pull 远端的 master 之后，一直显示有一个 local 文件被改动�
 ## 解决方案
 
 （确保自己本地所做的开发都已经推上去），强制更新本地的 master，方法如[帖子](https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files)
+
+<br/>
+
+# Undo一条commit
+
+## Description
+
+有时候需要在push之后回滚且不想要在历史上有痕迹
+
+## 解决方案
+
+跑如下命令：
+
+- `git reset --hard HEAD~1`
+>> If the code in this commit is still needed, replace flag 'hard' with 'mixed'
+- `git push -f`
+
+## 效果
+![](./statics/git-wrong-push.png)
+![](./statics/git-wanted-head.png)
 
 <br/>
 
