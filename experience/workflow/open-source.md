@@ -18,4 +18,4 @@
 
 以上皆为自己实操经验，如有不喜，勿喷！欢迎指正。若博君欢心，欢迎`star`一下。
 
-[>>Back to Home](../README.md)
+[>>Back to Home](../../README.md)

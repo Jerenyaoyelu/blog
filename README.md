@@ -38,13 +38,13 @@
 
 ### 开源项目 push 代码的 workflow
 
-[看这里](./specials/workflow1.md)
+[看这里](./experience/workflow/open-source.md)
 
 <br/>
 
 ### 公司项目 push 代码的 workflow
 
-[看这里](./specials/workflow2.md)
+[看这里](./experience/workflow/company-pro.md)
 
 <br/>
 
@@ -52,7 +52,7 @@
 
 ## 缓存相关
 
--   如何实现保持登录状态？[>>详情](./knowledge/advanceFrontend.md)
+-   如何实现保持登录状态？[>>详情](./experience/knowledge/advanceFrontend.md)
 
 <br/>
 
@@ -120,7 +120,7 @@
 
 -   git pull 远端的 master 之后，一直显示有一个 local 文件被改动，但是不管怎样 discard 又会有另外一个极为相近的文件显示刚刚 discard 掉的内容为新的改动，git pull 就说要先 stash local changes，但是 git stash 之后还是有这些 changes [>>详情](./experience/gitRelated.md#远端仓库手添文件造bug)
 
-- push之后如何undo一条commit且没有历史记录？[>>详情](./experience/gitRelated.md#远端仓库手添文件造bug)
+- push之后如何undo一条commit且没有历史记录？[>>详情](./experience/gitRelated.md#Undo一条commit)
 
 ## 前端相关
 
