@@ -116,35 +116,35 @@
 
 ## Git 相关
 
--   提交 pr 后 github 提示部分文件有 conflicts [>>详情](./holes/gitRelated.md#提交PR有冲突)
+-   提交 pr 后 github 提示部分文件有 conflicts [>>详情](./experience/gitRelated.md#提交PR有冲突)
 
--   git pull 远端的 master 之后，一直显示有一个 local 文件被改动，但是不管怎样 discard 又会有另外一个极为相近的文件显示刚刚 discard 掉的内容为新的改动，git pull 就说要先 stash local changes，但是 git stash 之后还是有这些 changes [>>详情](./holes/gitRelated.md#远端仓库手添文件造bug)
+-   git pull 远端的 master 之后，一直显示有一个 local 文件被改动，但是不管怎样 discard 又会有另外一个极为相近的文件显示刚刚 discard 掉的内容为新的改动，git pull 就说要先 stash local changes，但是 git stash 之后还是有这些 changes [>>详情](./experience/gitRelated.md#远端仓库手添文件造bug)
 
-- push之后如何undo一条commit且没有历史记录？[>>详情](./holes/gitRelated.md#远端仓库手添文件造bug)
+- push之后如何undo一条commit且没有历史记录？[>>详情](./experience/gitRelated.md#远端仓库手添文件造bug)
 
 ## 前端相关
 
--   arraw function 里的 setState 不能更新 state 或者更新有问题 [>>详情](./holes/setState.md)
+-   arraw function 里的 setState 不能更新 state 或者更新有问题 [>>详情](./experience/setState.md)
 
--   setState 更新 state 中的 object 类型变量，部分已经 state 中声明的 object 里面的 key 在之后的调用中变成 undefined [>>详情](./holes/setState.md)
+-   setState 更新 state 中的 object 类型变量，部分已经 state 中声明的 object 里面的 key 在之后的调用中变成 undefined [>>详情](./experience/setState.md)
 
--   在 onClick 中传入一个函数，此函数内有 setState，并且需要给这个函数传入一个参数[>>详情](./holes/frontend.md)
+-   在 onClick 中传入一个函数，此函数内有 setState，并且需要给这个函数传入一个参数[>>详情](./experience/frontend.md)
 
--   在实现保持登录状态时出现手动登录后点击 Myprofile 报错`_id of null`以及之后一系列报错 [>>详情](./holes/frontend.md# 'Persistent Login 相关')
+-   在实现保持登录状态时出现手动登录后点击 Myprofile 报错`_id of null`以及之后一系列报错 [>>详情](./experience/frontend.md# 'Persistent Login 相关')
 
--   在子组件点击链接后，会新开一个页面，但是就是会 redirect 到 not-found，App.js 的数据也明明都有请求过来。（说明 routes 还是有问题）[>>详情](./holes/react-router.md)
+-   在子组件点击链接后，会新开一个页面，但是就是会 redirect 到 not-found，App.js 的数据也明明都有请求过来。（说明 routes 还是有问题）[>>详情](./experience/react-router.md)
 
--   modal 渲染的内容需要根据 props 的数据的不同而变化，但无论是在 render（）方法里用 setState 还是单独写一个函数都会报错`Maximum update` [>>详情](./holes/lifecycleMethod.md)
+-   modal 渲染的内容需要根据 props 的数据的不同而变化，但无论是在 render（）方法里用 setState 还是单独写一个函数都会报错`Maximum update` [>>详情](./experience/lifecycleMethod.md)
 
--   任何深层级的页面只要一刷新就会导致当前页面 Not Found [>>详情](./holes/react-router.md)
+-   任何深层级的页面只要一刷新就会导致当前页面 Not Found [>>详情](./experience/react-router.md)
 
--   明明按照 controlled input 的写法，但是跑了之后还是报错 uncontrolled input error [>>详情](./holes/controlledInput.md)
+-   明明按照 controlled input 的写法，但是跑了之后还是报错 uncontrolled input error [>>详情](./experience/controlledInput.md)
 
--   点击编辑然后关闭 modal 后，再点击创建时，上次点击编辑传入的数据还保留在 modal 上 [>>详情](./holes/frontend.md)
+-   点击编辑然后关闭 modal 后，再点击创建时，上次点击编辑传入的数据还保留在 modal 上 [>>详情](./experience/frontend.md)
 
 ## Ajax 请求相关
 
--   axios 发送请求时，报错 cors preflight/一直显示 400 Bad request/catch log 出来的 error 不是 object 形式显示 [>>详情](./holes/ajax.md)
+-   axios 发送请求时，报错 cors preflight/一直显示 400 Bad request/catch log 出来的 error 不是 object 形式显示 [>>详情](./experience/ajax.md)
 
 ## DevOps 相关
 
