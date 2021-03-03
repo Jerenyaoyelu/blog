@@ -1,6 +1,6 @@
 # 立志成为一个优秀的前端代码生产商
 
-这里是 Jeren 叔叔的博客，汇聚一些在工作学习中遇到的坑以及心得。
+这里是 Jeren 叔叔的博客。
 
 <br/>
 
@@ -19,36 +19,7 @@
 
 <br/>
 
-# 其他博客没有的
-
-### **_Note_**
-
-开发趣味横生，在欢乐的生产代码的过程中也要注意养成良好习惯哦！
-
--   _前端开发提交 Pull Request，记得附上一张 UI 效果展示的 GIF/Screenshot._
--   _Pull Request 提交记得在开头备注[feat，fix，refactor]._
-
-    > _`feat`: 增加新的 feature_
-
-    > _`fix`: 修复 code_
-
-    > _`refactor`: 重构 code_
-
-<br/>
-
-### 开源项目 push 代码的 workflow
-
-[看这里](./experience/workflow/open-source.md)
-
-<br/>
-
-### 公司项目 push 代码的 workflow
-
-[看这里](./experience/workflow/company-pro.md)
-
-<br/>
-
-# 前端进阶
+# 前端知识点
 
 ## 缓存相关
 
@@ -112,7 +83,7 @@
 
 - [vue项目配置单元测试+e2e测试配置指南](./Vue学习心得/vue-cli配置jest指南.md)
 
-# 坑
+# Encountered Bugs
 
 ## Git 相关
 
@@ -145,8 +116,6 @@
 ## Ajax 请求相关
 
 -   axios 发送请求时，报错 cors preflight/一直显示 400 Bad request/catch log 出来的 error 不是 object 形式显示 [>>详情](./experience/ajax.md)
-
-## DevOps 相关
 
 <br/>
 
