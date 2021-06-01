@@ -4,26 +4,11 @@
 
 <br/>
 
-# 不错的开源学习社区推荐
-
--   [极客学院](https://wiki.jikexueyuan.com/)
-
-    -   提供非常全面的学习资源，不仅仅限于前端
-
--   [freeCodeCamp](https://www.freecodecamp.org/learn/)
-
-    -   提供非常全面的前端学习资源，一步一步带教
-
--   [前端面试查漏补缺](https://juejin.im/post/5c6bab91f265da2dd94c9f9e)
-    -   掘金上的大佬整理的挺详细的关于面试的前端知识点，查漏补缺
-
-<br/>
-
 # 前端知识点
 
-## 缓存相关
+## 一文看懂系列
 
--   如何实现保持登录状态？[>>详情](./experience/knowledge/advanceFrontend.md)
+- [你真的懂setTimeout吗？](./一文看懂/setTimeout.md)
 
 <br/>
 
@@ -75,13 +60,37 @@
 
 -   [进阶 2: 类、类与接口、泛型、声明合并](./浅谈TS笔记/进阶2.md)
 
-## Vue 学习心得
+<br/>
 
-> 此为学习 Vue [官方文档](https://cn.vuejs.org/v2/guide/)过程中，针对部分非直观知识点的进一步理解笔记，若有纰漏，欢迎指正。
+## Vue三俩事儿
 
--   [Vue v-for 指令的“就地更新”策略理解](./Vue学习心得/v-for就地更新.md)
+- [Vue v-for 指令的“就地更新”策略理解](./Vue学习心得/v-for就地更新.md)
 
 - [vue项目配置单元测试+e2e测试配置指南](./Vue学习心得/vue-cli配置jest指南.md)
+
+
+<br/>
+
+## 缓存相关
+
+-   如何实现保持登录状态？[>>详情](./experience/knowledge/advanceFrontend.md)
+
+<br/>
+
+## 不错的开源学习社区推荐
+
+-   [极客学院](https://wiki.jikexueyuan.com/)
+
+    -   提供非常全面的学习资源，不仅仅限于前端
+
+-   [freeCodeCamp](https://www.freecodecamp.org/learn/)
+
+    -   提供非常全面的前端学习资源，一步一步带教
+
+-   [前端面试查漏补缺](https://juejin.im/post/5c6bab91f265da2dd94c9f9e)
+    -   掘金上的大佬整理的挺详细的关于面试的前端知识点，查漏补缺
+
+<br/>
 
 # Encountered Bugs
 
